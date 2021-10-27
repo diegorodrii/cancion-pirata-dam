@@ -1,0 +1,26 @@
+/******** HOJA DE ESTILOS ********/
+
+@font-face {
+    font-family: pirata;
+    src: url(../fonts/WashlloDemoRegular.ttf);
+}
+body {
+  
+    background-size: -600px;
+    padding:0;
+    background-image: url(../images/pattern.jpg);
+    margin:0;
+    
+
+}
+#container {
+    
+    text-align: center;
+    font-family: pirata;
+    font-size: 2em;
+    background-color: #ECE3C4;
+    width: 80%;
+    margin:auto;
+    padding:20px;
+}
+ 

@@ -1,0 +1,38 @@
+/******************** estilo de pirata con imagen grande de fondo ********************/
+
+@font-face {
+    font-family: pirata;
+    src: url(../fonts/WashlloDemoRegular.ttf);
+}
+body {
+    background-color: black;
+
+}
+
+#container {
+
+    box-shadow: 40px 40px 40px;
+    background-size: 2000px;
+    padding:20px;
+    width: 80%;
+    height: 180vh; /* puede provocar que el texto del poema se salga del container*/
+    
+    margin: auto;
+    font-family: pirata;
+    background-image: url("../images/fondo2.jpg"); /*la imagen esta en el container*/
+    font-size: 1.9em;
+    background-size: cover; /*cover estira o encoge la imagen para que encaje perfectamente 1 sola vez, sin repetir*/
+    background-position: 5%;
+}
+#poema {
+    background-color: #dad3cb71;
+    margin: 20px;
+    padding: 20px;
+
+
+    width: 300px; /*en este caso MUY PARTICULAR me conviene fijar el ancho en pixeles porque protege el ancho de lineas del poema y no rompe los versos*/
+}
+
+
+
+
